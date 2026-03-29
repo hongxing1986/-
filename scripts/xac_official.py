@@ -20,7 +20,7 @@ W = {'D1':0.55,'D2':0.4,'D3a':7,'D3b':-1,'D4':6,
      'D8t':1,'D8':5,'D11':1.0,'D12a':12,'D12b':2,'D13a':14,'D13b':8}
 
 def load(fp, sc, ec):
-    df = pd.read_excel(fp, header=None)
+    df = pd.read_excel(fp, header=None, engine='openpyxl')
     data = []
     for i in range(len(df)):
         row = df.iloc[i]
@@ -28,11 +28,12 @@ def load(fp, sc, ec):
         for col in range(sc, ec):
             v = row[col]
             if pd.notna(v):
-                s = str(v).strip()
-                if s.isdigit():
-                    n = int(s)
+                try:
+                    n = int(float(v))
                     if 1 <= n <= 49:
                         nums.append(n)
+                except:
+                    pass
         if len(nums) == 7:
             data.append({'nums': nums, 'zs': [zm[n] for n in nums]})
     return data
@@ -222,7 +223,7 @@ def predict(data):
     return ranked[0][0], ranked[0][1], ranked[1][0], ranked[1][1]
 
 # 主程序
-all_data = load(r'D:\Desktop\数据2026.xls', 7, 14)
+all_data = load(r'D:\Desktop\数据2026_correct.xlsx', 6, 13)
 total = len(all_data)
 
 print("="*60)
