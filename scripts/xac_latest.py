@@ -261,6 +261,29 @@ def predict(data, skip_d15=False, d5_weight=30):
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return [z for z, _ in ranked[:5]], scores
 
+def get_different_top2(pred1, scores1, pred2, scores2):
+    """确保TOP1和TOP2不同"""
+    # 如果两个策略的TOP1相同
+    if pred1[0] == pred2[1]:
+        # TOP2用pred2的次高分
+        top2 = pred2[1]
+        top2_score = scores2[top2]
+    else:
+        # 否则用pred2的TOP1
+        top2 = pred2[0]
+        top2_score = scores2[top2]
+    
+    # 如果TOP1和TOP2相同，选择pred1的次高分
+    if pred1[0] == top2:
+        # 从pred1中找第二个
+        for z in pred1[1:]:
+            if z != pred1[0]:
+                top2 = z
+                top2_score = scores1[z]
+                break
+    
+    return top2, top2_score
+
 # ==================== 主程序 ====================
 if __name__ == '__main__':
     print("="*60)
@@ -308,10 +331,19 @@ if __name__ == '__main__':
     
     # TOP2预测(去D15)
     pred2, scores2 = predict(all_data, skip_d15=True, d5_weight=30)
+    
+    # 确保TOP1和TOP2不同
+    top2, top2_score = get_different_top2(pred1, scores1, pred2, scores2)
+    
     print(f"\n【TOP2预测】(去D15策略)")
     print(f"  第一名: {pred2[0]} (得分:{scores2[pred2[0]]:.1f})")
-    print(f"  第二名: {pred2[1]} (得分:{scores2[pred2[1]]:.1f})")
+    print(f"  第二名: {top2} (得分:{top2_score:.1f})")
     
     print("\n" + "="*60)
-    print("重点关注: {}、{}".format(pred1[0], pred2[1]))
+    print("【完整排名】")
+    print(f"  TOP1策略: {pred1[0]}({scores1[pred1[0]]:.1f}), {pred1[1]}({scores1[pred1[1]]:.1f}), {pred1[2]}({scores1[pred1[2]]:.1f})")
+    print(f"  TOP2策略: {pred2[0]}({scores2[pred2[0]]:.1f}), {pred2[1]}({scores2[pred2[1]]:.1f}), {pred2[2]}({scores2[pred2[2]]:.1f})")
+    print()
+    print("="*60)
+    print(f"重点关注: {pred1[0]}、{top2}")
     print("="*60)
