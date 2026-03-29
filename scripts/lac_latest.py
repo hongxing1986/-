@@ -289,7 +289,7 @@ if __name__ == '__main__':
     print("="*60)
     
     # 加载数据
-    all_data = load(r'D:\Desktop\数据2027.xls', 9, 16)
+    all_data = load(r'D:\Desktop\数据2027_v4.xlsx', 8, 15)
     print(f"\n数据: {len(all_data)}期")
     
     # 回测统计
