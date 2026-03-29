@@ -1,29 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-lac预测系统 - 最新版 (混合策略)
-TOP1: D5=0 (58.3%命中率)
-TOP2: D5=25 (61.1%命中率)
-回测覆盖: 77.8% (TOP1+TOP2)
+lac预测系统 - 最新版
+关键发现：D5(遗漏回补)影响最大
+- TOP1: D5=0 (去D5, 58.3%)
+- TOP2: D5=25 (有D5, 61.1%)
 """
 import pandas as pd
 from collections import Counter
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-# ==================== 常量 ====================
-zm = {1:'马',13:'马',25:'马',37:'马',49:'马',
-      2:'蛇',14:'蛇',26:'蛇',38:'蛇',
-      3:'龙',15:'龙',27:'龙',39:'龙',
-      4:'兔',16:'兔',28:'兔',40:'兔',
-      5:'虎',17:'虎',29:'虎',41:'虎',
-      6:'牛',18:'牛',30:'牛',42:'牛',
-      7:'鼠',19:'鼠',31:'鼠',43:'鼠',
-      8:'猪',20:'猪',32:'猪',44:'猪',
-      9:'狗',21:'狗',33:'狗',45:'狗',
-      10:'鸡',22:'鸡',34:'鸡',46:'鸡',
-      11:'猴',23:'猴',35:'猴',47:'猴',
-      12:'羊',24:'羊',36:'羊',48:'羊'}
-
+zm = {1:'马',13:'马',25:'马',37:'马',49:'马',2:'蛇',14:'蛇',26:'蛇',38:'蛇',3:'龙',15:'龙',27:'龙',39:'龙',4:'兔',16:'兔',28:'兔',40:'兔',5:'虎',17:'虎',29:'虎',41:'虎',6:'牛',18:'牛',30:'牛',42:'牛',7:'鼠',19:'鼠',31:'鼠',43:'鼠',8:'猪',20:'猪',32:'猪',44:'猪',9:'狗',21:'狗',33:'狗',45:'狗',10:'鸡',22:'鸡',34:'鸡',46:'鸡',11:'猴',23:'猴',35:'猴',47:'猴',12:'羊',24:'羊',36:'羊',48:'羊'}
 zs = ['鼠','牛','虎','兔','龙','蛇','马','羊','猴','鸡','狗','猪']
 zone1 = ['鼠','牛','虎','兔']
 zone2 = ['龙','蛇','马','羊']
@@ -39,9 +26,7 @@ BASE_W = {
     'D8t':1,'D8':5,'D11':1.0,'D12a':12,'D12b':2,'D13a':14,'D13b':8
 }
 
-# ==================== 数据加载 ====================
 def load(fp, sc, ec):
-    """加载Excel数据"""
     df = pd.read_excel(fp, header=None, engine='openpyxl')
     data = []
     for i in range(len(df)):
@@ -60,9 +45,7 @@ def load(fp, sc, ec):
             data.append({'nums': nums, 'zs': [zm[n] for n in nums]})
     return data
 
-# ==================== 遗漏计算 ====================
 def calc_miss(data):
-    """计算遗漏值和最大遗漏"""
     last = data[-1]
     miss = {}
     for z in zs:
@@ -75,7 +58,6 @@ def calc_miss(data):
                     break
                 m += 1
             miss[z] = m
-    
     mm = {z: 0 for z in zs}
     st = {z: 0 for z in zs}
     for d in data:
@@ -88,25 +70,18 @@ def calc_miss(data):
                 st[z] += 1
     return miss, mm
 
-# ==================== 预测函数 ====================
-def predict(data, d5_weight=0):
-    """
-    预测函数
-    d5_weight: D5维度权重，0=TOP1优先，25=TOP2优先
-    """
+def predict(data, d5_weight=18):
+    """lac预测函数 - D5是关键维度"""
     scores = {z: 0 for z in zs}
     last = data[-1]
     miss, mm = calc_miss(data)
-    
     r10 = Counter()
     for d in data[-10:]:
         r10.update(d['zs'])
-    
     fc = Counter()
     for d in data:
         fc.update(d['zs'])
     
-    # D1: 位置热度
     pz = {p: Counter() for p in range(7)}
     for d in data[-30:]:
         for p in range(7):
@@ -115,11 +90,9 @@ def predict(data, d5_weight=0):
         for z, c in pz[p].most_common(3):
             scores[z] += c * (7-p) * BASE_W['D1']
     
-    # D2: 全局频率
     for z in zs:
         scores[z] += fc.get(z, 0) * BASE_W['D2']
     
-    # D3: 三区分层
     cz1 = sum(1 for z in last['zs'] if z in zone1)
     cz2 = sum(1 for z in last['zs'] if z in zone2)
     cz3 = sum(1 for z in last['zs'] if z in zone3)
@@ -130,7 +103,6 @@ def predict(data, d5_weight=0):
     for z in zone3:
         if cz3<=1: scores[z] += BASE_W['D3a']
     
-    # D4: 012路
     cr0 = sum(1 for z in last['zs'] if z in road0)
     cr1 = sum(1 for z in last['zs'] if z in road1)
     cr2 = sum(1 for z in last['zs'] if z in road2)
@@ -141,7 +113,7 @@ def predict(data, d5_weight=0):
     for z in road2:
         if cr2<=1: scores[z] += BASE_W['D4']
     
-    # D5: 遗漏回补 (可调权重)
+    # D5 - lac的关键维度！
     if d5_weight > 0:
         for z in zs:
             if miss[z] > 0 and mm[z] > 0:
@@ -151,7 +123,6 @@ def predict(data, d5_weight=0):
                 elif r >= 0.50: scores[z] += d5_weight * 0.61
                 elif r >= 0.30: scores[z] += d5_weight * 0.39
     
-    # D6: 连开惩罚
     for z in zs:
         if z in last['zs']:
             c = 1
@@ -164,7 +135,6 @@ def predict(data, d5_weight=0):
             elif c >= 4: scores[z] += BASE_W['D6b']
             elif c >= 3: scores[z] += BASE_W['D6c']
     
-    # D7: 近10期热度
     for z in zs:
         h = r10.get(z, 0)
         if h >= 5: scores[z] += BASE_W['D7a']
@@ -173,12 +143,10 @@ def predict(data, d5_weight=0):
         elif h >= 2: scores[z] += BASE_W['D7d']
         else: scores[z] += BASE_W['D7e']
     
-    # D8: 遗漏阈值
     for z in zs:
         if miss.get(z, 0) > BASE_W['D8t']:
             scores[z] += BASE_W['D8']
     
-    # D9: 位置重复
     for p in range(7):
         pc = Counter()
         for d in data[-20:]:
@@ -187,16 +155,13 @@ def predict(data, d5_weight=0):
             if c >= 3:
                 scores[z] += 0.5
     
-    # D10: 连号
     for i in range(len(last['nums'])-1):
         if last['nums'][i+1] - last['nums'][i] == 1:
             scores[last['zs'][i]] += 1
     
-    # D11: 重号
     for z in last['zs']:
         scores[z] += BASE_W['D11']
     
-    # D12: 冷热转换
     cold = [z for z in zs if miss.get(z, 0) >= 5]
     hot = [z for z in zs if r10.get(z, 0) >= 4]
     for z in cold:
@@ -205,7 +170,6 @@ def predict(data, d5_weight=0):
     for z in hot:
         scores[z] += BASE_W['D12b']
     
-    # D13: 间隔周期
     intv = {}
     for z in zs:
         iv = []
@@ -224,7 +188,6 @@ def predict(data, d5_weight=0):
         elif miss.get(z, 0) > ai:
             scores[z] += BASE_W['D13b']
     
-    # D14: 生肖关联
     pairs = [('鼠','龙'), ('龙','蛇'), ('蛇','马'), ('马','羊'), ('羊','猴'),
              ('猴','鸡'), ('鸡','狗'), ('狗','猪'), ('猪','牛'), ('牛','虎'),
              ('虎','兔'), ('兔','鼠')]
@@ -232,7 +195,7 @@ def predict(data, d5_weight=0):
         if z1 in last['zs']: scores[z2] += 3
         if z2 in last['zs']: scores[z1] += 3
     
-    # D15: 奇偶比例
+    # D15 - 始终启用
     odd = sum(1 for n in last['nums'] if n % 2 == 1)
     if odd >= 5:
         for z in ['马','虎','龙','蛇','狗']:
@@ -241,7 +204,6 @@ def predict(data, d5_weight=0):
         for z in ['鼠','牛','兔','羊','猴','鸡','猪']:
             scores[z] += 5
     
-    # D16: 大小比例
     big = sum(1 for n in last['nums'] if n >= 25)
     if big >= 5:
         for z in ['马','蛇','龙','虎','牛']:
@@ -250,7 +212,6 @@ def predict(data, d5_weight=0):
         for z in ['鼠','兔','羊','猴','鸡','狗','猪']:
             scores[z] += 4
     
-    # D17: 和值范围
     s = sum(last['nums'])
     if 100 <= s <= 150:
         for z in zs:
@@ -260,39 +221,29 @@ def predict(data, d5_weight=0):
     return [z for z, _ in ranked[:5]], scores
 
 def get_different_top2(pred1, scores1, pred2, scores2):
-    """确保TOP1和TOP2不同"""
-    # 如果两个策略的TOP1相同
     if pred1[0] == pred2[0]:
-        # TOP2用pred2的次高分
         top2 = pred2[1]
         top2_score = scores2[top2]
     else:
-        # 否则用pred2的TOP1
         top2 = pred2[0]
         top2_score = scores2[top2]
-    
-    # 如果TOP1和TOP2相同，选择pred1的次高分
     if pred1[0] == top2:
-        # 从pred1中找第二个
         for z in pred1[1:]:
             if z != pred1[0]:
                 top2 = z
                 top2_score = scores1[z]
                 break
-    
     return top2, top2_score
 
-# ==================== 主程序 ====================
 if __name__ == '__main__':
     print("="*60)
-    print("lac预测系统 - 最新版 (混合策略)")
+    print("lac预测系统 - 最新版")
+    print("关键: D5(遗漏回补)影响最大")
     print("="*60)
     
-    # 加载数据
     all_data = load(r'D:\Desktop\数据2027_v4.xlsx', 8, 15)
     print(f"\n数据: {len(all_data)}期")
     
-    # 回测统计
     n_backtest = len(all_data) - 50
     top1_hit = 0
     top2_hit = 0
@@ -305,10 +256,10 @@ if __name__ == '__main__':
         actual = all_data[i]
         actual_set = set(actual['zs'])
         
-        # TOP1用D5=0
-        pred1, _ = predict(train, 0)
-        # TOP2用D5=25
-        pred2, _ = predict(train, 25)
+        # TOP1: D5=0
+        pred1, _ = predict(train, d5_weight=0)
+        # TOP2: D5=25
+        pred2, _ = predict(train, d5_weight=25)
         
         if pred1[0] in actual_set: top1_hit += 1
         if pred2[1] in actual_set: top2_hit += 1
@@ -317,20 +268,15 @@ if __name__ == '__main__':
     print(f"TOP2命中率(D5=25): {top2_hit}/{n_backtest} = {top2_hit/n_backtest*100:.1f}%")
     print(f"综合覆盖率: {(top1_hit+top2_hit)/n_backtest:.1f}%")
     
-    # 预测最新一期
     print("\n" + "="*60)
     print(f"第{len(all_data)+1}期预测结果")
     print("="*60)
     
-    # TOP1预测(D5=0)
-    pred1, scores1 = predict(all_data, 0)
+    pred1, scores1 = predict(all_data, d5_weight=0)
     print(f"\n【TOP1预测】(D5=0策略)")
     print(f"  第一名: {pred1[0]} (得分:{scores1[pred1[0]]:.1f})")
     
-    # TOP2预测(D5=25)
-    pred2, scores2 = predict(all_data, 25)
-    
-    # 确保TOP1和TOP2不同
+    pred2, scores2 = predict(all_data, d5_weight=25)
     top2, top2_score = get_different_top2(pred1, scores1, pred2, scores2)
     
     print(f"\n【TOP2预测】(D5=25策略)")
