@@ -1,0 +1,6749 @@
+{
+  "规则5_4单3双": {
+    "rule_name": "规则5_4单3双",
+    "rule_info": {
+      "value": "4单3双",
+      "odd": 4,
+      "even": 3
+    },
+    "match_count": 36,
+    "interval_distribution": {
+      "1": 3,
+      "0": 5,
+      "6": 5,
+      "4": 5,
+      "10": 4,
+      "3": 3,
+      "8": 1,
+      "2": 3,
+      "9": 1,
+      "5": 1,
+      "11": 1,
+      "7": 4
+    },
+    "most_common_intervals": [
+      [
+        0,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 11,
+        "to_period": 12,
+        "from_zodiac": "猴",
+        "to_zodiac": "猴",
+        "interval": 0
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 85,
+        "to_period": 86,
+        "from_zodiac": "鼠",
+        "to_zodiac": "羊",
+        "interval": 7
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则8_大小极端": {
+    "rule_name": "规则8_大小极端",
+    "rule_info": {
+      "value": "1大6小",
+      "big": 1,
+      "small": 6
+    },
+    "match_count": 13,
+    "interval_distribution": {
+      "1": 3,
+      "8": 2,
+      "5": 1,
+      "2": 1,
+      "3": 2,
+      "10": 1,
+      "9": 2,
+      "7": 1
+    },
+    "most_common_intervals": [
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      }
+    ]
+  },
+  "规则12_生肖重复2+": {
+    "rule_name": "规则12_生肖重复2+",
+    "rule_info": {
+      "value": "龙出现2次",
+      "zodiacs": [
+        "龙"
+      ],
+      "count": 2
+    },
+    "match_count": 97,
+    "interval_distribution": {
+      "1": 10,
+      "0": 4,
+      "2": 10,
+      "6": 11,
+      "8": 6,
+      "5": 8,
+      "4": 7,
+      "10": 13,
+      "11": 10,
+      "7": 9,
+      "3": 4,
+      "9": 5
+    },
+    "most_common_intervals": [
+      [
+        10,
+        13
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则14_单双组合": {
+    "rule_name": "规则14_单双组合",
+    "rule_info": {
+      "value": "0101110",
+      "pattern": "0101110"
+    },
+    "match_count": 112,
+    "interval_distribution": {
+      "1": 12,
+      "0": 6,
+      "2": 10,
+      "6": 12,
+      "8": 9,
+      "5": 8,
+      "4": 9,
+      "10": 13,
+      "11": 10,
+      "7": 11,
+      "3": 6,
+      "9": 5
+    },
+    "most_common_intervals": [
+      [
+        10,
+        13
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        6,
+        12
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 11,
+        "to_period": 12,
+        "from_zodiac": "猴",
+        "to_zodiac": "猴",
+        "interval": 0
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 85,
+        "to_period": 86,
+        "from_zodiac": "鼠",
+        "to_zodiac": "羊",
+        "interval": 7
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则16_7号双": {
+    "rule_name": "规则16_7号双",
+    "rule_info": {
+      "value": "第7号=22(双)",
+      "n7": 22
+    },
+    "match_count": 46,
+    "interval_distribution": {
+      "1": 7,
+      "7": 3,
+      "10": 6,
+      "5": 3,
+      "6": 2,
+      "0": 3,
+      "3": 3,
+      "8": 3,
+      "4": 1,
+      "11": 7,
+      "2": 4,
+      "9": 3
+    },
+    "most_common_intervals": [
+      [
+        1,
+        7
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      }
+    ]
+  },
+  "规则17_单双分布_7号属性": {
+    "rule_name": "规则17_单双分布_7号属性",
+    "rule_info": {
+      "value": "4单3双+7号双",
+      "odd": 4,
+      "even": 3,
+      "n7_odd": false
+    },
+    "match_count": 112,
+    "interval_distribution": {
+      "1": 12,
+      "0": 6,
+      "2": 10,
+      "6": 12,
+      "8": 9,
+      "5": 8,
+      "4": 9,
+      "10": 13,
+      "11": 10,
+      "7": 11,
+      "3": 6,
+      "9": 5
+    },
+    "most_common_intervals": [
+      [
+        10,
+        13
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        6,
+        12
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 11,
+        "to_period": 12,
+        "from_zodiac": "猴",
+        "to_zodiac": "猴",
+        "interval": 0
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 85,
+        "to_period": 86,
+        "from_zodiac": "鼠",
+        "to_zodiac": "羊",
+        "interval": 7
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则18_前6单双_7号属性": {
+    "rule_name": "规则18_前6单双_7号属性",
+    "rule_info": {
+      "value": "前6=4单+7号双",
+      "front6_odd": 4,
+      "n7_odd": false
+    },
+    "match_count": 112,
+    "interval_distribution": {
+      "1": 12,
+      "0": 6,
+      "2": 10,
+      "6": 12,
+      "8": 9,
+      "5": 8,
+      "4": 9,
+      "10": 13,
+      "11": 10,
+      "7": 11,
+      "3": 6,
+      "9": 5
+    },
+    "most_common_intervals": [
+      [
+        10,
+        13
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        6,
+        12
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 11,
+        "to_period": 12,
+        "from_zodiac": "猴",
+        "to_zodiac": "猴",
+        "interval": 0
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 85,
+        "to_period": 86,
+        "from_zodiac": "鼠",
+        "to_zodiac": "羊",
+        "interval": 7
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则19_生肖重复_7号生肖": {
+    "rule_name": "规则19_生肖重复_7号生肖",
+    "rule_info": {
+      "value": "生肖重复+7号=鸡",
+      "zodiacs": [
+        "龙"
+      ],
+      "n7_zodiac": "鸡"
+    },
+    "match_count": 97,
+    "interval_distribution": {
+      "1": 10,
+      "0": 4,
+      "2": 10,
+      "6": 11,
+      "8": 6,
+      "5": 8,
+      "4": 7,
+      "10": 13,
+      "11": 10,
+      "7": 9,
+      "3": 4,
+      "9": 5
+    },
+    "most_common_intervals": [
+      [
+        10,
+        13
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 2,
+        "to_period": 3,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 20,
+        "to_period": 21,
+        "from_zodiac": "羊",
+        "to_zodiac": "牛",
+        "interval": 6
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 32,
+        "to_period": 33,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则11_3大4小": {
+    "rule_name": "规则11_3大4小",
+    "rule_info": {
+      "value": "3大4小",
+      "big": 3,
+      "small": 4
+    },
+    "match_count": 27,
+    "interval_distribution": {
+      "0": 1,
+      "6": 3,
+      "8": 2,
+      "11": 3,
+      "1": 6,
+      "3": 1,
+      "10": 3,
+      "2": 3,
+      "4": 2,
+      "7": 1,
+      "5": 1
+    },
+    "most_common_intervals": [
+      [
+        1,
+        6
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        11,
+        3
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 55,
+        "to_period": 56,
+        "from_zodiac": "蛇",
+        "to_zodiac": "羊",
+        "interval": 2
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      }
+    ]
+  },
+  "规则15_7号单": {
+    "rule_name": "规则15_7号单",
+    "rule_info": {
+      "value": "第7号=9(单)",
+      "n7": 9
+    },
+    "match_count": 66,
+    "interval_distribution": {
+      "0": 3,
+      "2": 6,
+      "6": 10,
+      "8": 6,
+      "5": 5,
+      "4": 8,
+      "10": 7,
+      "11": 3,
+      "1": 5,
+      "7": 8,
+      "3": 3,
+      "9": 2
+    },
+    "most_common_intervals": [
+      [
+        6,
+        10
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 3,
+        "to_period": 4,
+        "from_zodiac": "狗",
+        "to_zodiac": "狗",
+        "interval": 0
+      },
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 5,
+        "to_period": 6,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 11,
+        "to_period": 12,
+        "from_zodiac": "猴",
+        "to_zodiac": "猴",
+        "interval": 0
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 29,
+        "to_period": 30,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 35,
+        "to_period": 36,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 37,
+        "to_period": 38,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 46,
+        "to_period": 47,
+        "from_zodiac": "龙",
+        "to_zodiac": "龙",
+        "interval": 0
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 53,
+        "to_period": 54,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 65,
+        "to_period": 66,
+        "from_zodiac": "虎",
+        "to_zodiac": "马",
+        "interval": 4
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 67,
+        "to_period": 68,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 77,
+        "to_period": 78,
+        "from_zodiac": "虎",
+        "to_zodiac": "鸡",
+        "interval": 7
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 80,
+        "to_period": 81,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 81,
+        "to_period": 82,
+        "from_zodiac": "虎",
+        "to_zodiac": "龙",
+        "interval": 2
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 85,
+        "to_period": 86,
+        "from_zodiac": "鼠",
+        "to_zodiac": "羊",
+        "interval": 7
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 112,
+        "to_period": 113,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      }
+    ]
+  },
+  "规则4_5单2双": {
+    "rule_name": "规则4_5单2双",
+    "rule_info": {
+      "value": "5单2双",
+      "odd": 5,
+      "even": 2
+    },
+    "match_count": 15,
+    "interval_distribution": {
+      "2": 2,
+      "8": 2,
+      "10": 1,
+      "11": 2,
+      "5": 2,
+      "3": 1,
+      "6": 1,
+      "4": 3,
+      "9": 1
+    },
+    "most_common_intervals": [
+      [
+        4,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        8,
+        2
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 6,
+        "to_period": 7,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 13,
+        "to_period": 14,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 18,
+        "to_period": 19,
+        "from_zodiac": "龙",
+        "to_zodiac": "鸡",
+        "interval": 5
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 30,
+        "to_period": 31,
+        "from_zodiac": "虎",
+        "to_zodiac": "蛇",
+        "interval": 3
+      },
+      {
+        "from_period": 31,
+        "to_period": 32,
+        "from_zodiac": "蛇",
+        "to_zodiac": "牛",
+        "interval": 8
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 87,
+        "to_period": 88,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      }
+    ]
+  },
+  "规则10_4大3小": {
+    "rule_name": "规则10_4大3小",
+    "rule_info": {
+      "value": "4大3小",
+      "big": 4,
+      "small": 3
+    },
+    "match_count": 36,
+    "interval_distribution": {
+      "2": 2,
+      "5": 2,
+      "4": 4,
+      "7": 4,
+      "10": 3,
+      "0": 2,
+      "3": 1,
+      "6": 5,
+      "8": 3,
+      "11": 5,
+      "9": 3,
+      "1": 2
+    },
+    "most_common_intervals": [
+      [
+        6,
+        5
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 4,
+        "to_period": 5,
+        "from_zodiac": "狗",
+        "to_zodiac": "鼠",
+        "interval": 2
+      },
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 10,
+        "to_period": 11,
+        "from_zodiac": "龙",
+        "to_zodiac": "猴",
+        "interval": 4
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 19,
+        "to_period": 20,
+        "from_zodiac": "鸡",
+        "to_zodiac": "羊",
+        "interval": 10
+      },
+      {
+        "from_period": 21,
+        "to_period": 22,
+        "from_zodiac": "牛",
+        "to_zodiac": "牛",
+        "interval": 0
+      },
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 34,
+        "to_period": 35,
+        "from_zodiac": "鼠",
+        "to_zodiac": "龙",
+        "interval": 4
+      },
+      {
+        "from_period": 36,
+        "to_period": 37,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 58,
+        "to_period": 59,
+        "from_zodiac": "鼠",
+        "to_zodiac": "鸡",
+        "interval": 9
+      },
+      {
+        "from_period": 60,
+        "to_period": 61,
+        "from_zodiac": "狗",
+        "to_zodiac": "虎",
+        "interval": 4
+      },
+      {
+        "from_period": 61,
+        "to_period": 62,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 73,
+        "to_period": 74,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 75,
+        "to_period": 76,
+        "from_zodiac": "狗",
+        "to_zodiac": "蛇",
+        "interval": 7
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 95,
+        "to_period": 96,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 104,
+        "to_period": 105,
+        "from_zodiac": "马",
+        "to_zodiac": "兔",
+        "interval": 9
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      }
+    ]
+  },
+  "规则6_3单4双": {
+    "rule_name": "规则6_3单4双",
+    "rule_info": {
+      "value": "3单4双",
+      "odd": 3,
+      "even": 4
+    },
+    "match_count": 38,
+    "interval_distribution": {
+      "8": 3,
+      "1": 7,
+      "7": 4,
+      "5": 3,
+      "6": 5,
+      "10": 4,
+      "3": 1,
+      "2": 4,
+      "11": 2,
+      "4": 1,
+      "9": 3
+    },
+    "most_common_intervals": [
+      [
+        1,
+        7
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 7,
+        "to_period": 8,
+        "from_zodiac": "虎",
+        "to_zodiac": "狗",
+        "interval": 8
+      },
+      {
+        "from_period": 9,
+        "to_period": 10,
+        "from_zodiac": "兔",
+        "to_zodiac": "龙",
+        "interval": 1
+      },
+      {
+        "from_period": 14,
+        "to_period": 15,
+        "from_zodiac": "蛇",
+        "to_zodiac": "鼠",
+        "interval": 7
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 25,
+        "to_period": 26,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 27,
+        "to_period": 28,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 33,
+        "to_period": 34,
+        "from_zodiac": "虎",
+        "to_zodiac": "鼠",
+        "interval": 10
+      },
+      {
+        "from_period": 39,
+        "to_period": 40,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 42,
+        "to_period": 43,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 45,
+        "to_period": 46,
+        "from_zodiac": "马",
+        "to_zodiac": "龙",
+        "interval": 10
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 52,
+        "to_period": 53,
+        "from_zodiac": "蛇",
+        "to_zodiac": "龙",
+        "interval": 11
+      },
+      {
+        "from_period": 56,
+        "to_period": 57,
+        "from_zodiac": "羊",
+        "to_zodiac": "猴",
+        "interval": 1
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 59,
+        "to_period": 60,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 74,
+        "to_period": 75,
+        "from_zodiac": "鸡",
+        "to_zodiac": "狗",
+        "interval": 1
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 79,
+        "to_period": 80,
+        "from_zodiac": "猴",
+        "to_zodiac": "龙",
+        "interval": 8
+      },
+      {
+        "from_period": 83,
+        "to_period": 84,
+        "from_zodiac": "虎",
+        "to_zodiac": "兔",
+        "interval": 1
+      },
+      {
+        "from_period": 84,
+        "to_period": 85,
+        "from_zodiac": "兔",
+        "to_zodiac": "鼠",
+        "interval": 9
+      },
+      {
+        "from_period": 89,
+        "to_period": 90,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 90,
+        "to_period": 91,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 91,
+        "to_period": 92,
+        "from_zodiac": "马",
+        "to_zodiac": "牛",
+        "interval": 7
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 98,
+        "to_period": 99,
+        "from_zodiac": "虎",
+        "to_zodiac": "羊",
+        "interval": 5
+      },
+      {
+        "from_period": 100,
+        "to_period": 101,
+        "from_zodiac": "狗",
+        "to_zodiac": "龙",
+        "interval": 6
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 103,
+        "to_period": 104,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      },
+      {
+        "from_period": 105,
+        "to_period": 106,
+        "from_zodiac": "兔",
+        "to_zodiac": "鸡",
+        "interval": 6
+      },
+      {
+        "from_period": 106,
+        "to_period": 107,
+        "from_zodiac": "鸡",
+        "to_zodiac": "马",
+        "interval": 9
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      }
+    ]
+  },
+  "规则2_尾数3次": {
+    "rule_name": "规则2_尾数3次",
+    "rule_info": {
+      "value": "尾数9出现3次",
+      "count": 3
+    },
+    "match_count": 15,
+    "interval_distribution": {
+      "5": 1,
+      "1": 2,
+      "3": 2,
+      "10": 3,
+      "6": 1,
+      "2": 1,
+      "9": 1,
+      "8": 1,
+      "7": 1,
+      "4": 1
+    },
+    "most_common_intervals": [
+      [
+        10,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 15,
+        "to_period": 16,
+        "from_zodiac": "鼠",
+        "to_zodiac": "牛",
+        "interval": 1
+      },
+      {
+        "from_period": 24,
+        "to_period": 25,
+        "from_zodiac": "兔",
+        "to_zodiac": "马",
+        "interval": 3
+      },
+      {
+        "from_period": 26,
+        "to_period": 27,
+        "from_zodiac": "鼠",
+        "to_zodiac": "狗",
+        "interval": 10
+      },
+      {
+        "from_period": 43,
+        "to_period": 44,
+        "from_zodiac": "马",
+        "to_zodiac": "鼠",
+        "interval": 6
+      },
+      {
+        "from_period": 49,
+        "to_period": 50,
+        "from_zodiac": "马",
+        "to_zodiac": "猴",
+        "interval": 2
+      },
+      {
+        "from_period": 50,
+        "to_period": 51,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 76,
+        "to_period": 77,
+        "from_zodiac": "蛇",
+        "to_zodiac": "虎",
+        "interval": 9
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 111,
+        "to_period": 112,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      }
+    ]
+  },
+  "规则3_单双极端": {
+    "rule_name": "规则3_单双极端",
+    "rule_info": {
+      "value": "6单1双",
+      "odd": 6,
+      "even": 1
+    },
+    "match_count": 16,
+    "interval_distribution": {
+      "5": 2,
+      "10": 3,
+      "7": 2,
+      "11": 3,
+      "1": 2,
+      "8": 2,
+      "2": 1,
+      "3": 1
+    },
+    "most_common_intervals": [
+      [
+        10,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 8,
+        "to_period": 9,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 38,
+        "to_period": 39,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 48,
+        "to_period": 49,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 51,
+        "to_period": 52,
+        "from_zodiac": "马",
+        "to_zodiac": "蛇",
+        "interval": 11
+      },
+      {
+        "from_period": 64,
+        "to_period": 65,
+        "from_zodiac": "牛",
+        "to_zodiac": "虎",
+        "interval": 1
+      },
+      {
+        "from_period": 66,
+        "to_period": 67,
+        "from_zodiac": "马",
+        "to_zodiac": "虎",
+        "interval": 8
+      },
+      {
+        "from_period": 69,
+        "to_period": 70,
+        "from_zodiac": "羊",
+        "to_zodiac": "马",
+        "interval": 11
+      },
+      {
+        "from_period": 70,
+        "to_period": 71,
+        "from_zodiac": "马",
+        "to_zodiac": "羊",
+        "interval": 1
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 88,
+        "to_period": 89,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 99,
+        "to_period": 100,
+        "from_zodiac": "羊",
+        "to_zodiac": "狗",
+        "interval": 3
+      },
+      {
+        "from_period": 101,
+        "to_period": 102,
+        "from_zodiac": "龙",
+        "to_zodiac": "猪",
+        "interval": 7
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      }
+    ]
+  },
+  "规则9_5大2小": {
+    "rule_name": "规则9_5大2小",
+    "rule_info": {
+      "value": "5大2小",
+      "big": 5,
+      "small": 2
+    },
+    "match_count": 20,
+    "interval_distribution": {
+      "10": 4,
+      "5": 3,
+      "7": 1,
+      "2": 4,
+      "4": 3,
+      "6": 2,
+      "8": 2,
+      "0": 1
+    },
+    "most_common_intervals": [
+      [
+        10,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 12,
+        "to_period": 13,
+        "from_zodiac": "猴",
+        "to_zodiac": "马",
+        "interval": 10
+      },
+      {
+        "from_period": 16,
+        "to_period": 17,
+        "from_zodiac": "牛",
+        "to_zodiac": "猪",
+        "interval": 10
+      },
+      {
+        "from_period": 17,
+        "to_period": 18,
+        "from_zodiac": "猪",
+        "to_zodiac": "龙",
+        "interval": 5
+      },
+      {
+        "from_period": 23,
+        "to_period": 24,
+        "from_zodiac": "猴",
+        "to_zodiac": "兔",
+        "interval": 7
+      },
+      {
+        "from_period": 28,
+        "to_period": 29,
+        "from_zodiac": "龙",
+        "to_zodiac": "马",
+        "interval": 2
+      },
+      {
+        "from_period": 40,
+        "to_period": 41,
+        "from_zodiac": "兔",
+        "to_zodiac": "羊",
+        "interval": 4
+      },
+      {
+        "from_period": 44,
+        "to_period": 45,
+        "from_zodiac": "鼠",
+        "to_zodiac": "马",
+        "interval": 6
+      },
+      {
+        "from_period": 54,
+        "to_period": 55,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 57,
+        "to_period": 58,
+        "from_zodiac": "猴",
+        "to_zodiac": "鼠",
+        "interval": 4
+      },
+      {
+        "from_period": 62,
+        "to_period": 63,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 71,
+        "to_period": 72,
+        "from_zodiac": "羊",
+        "to_zodiac": "鸡",
+        "interval": 2
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 82,
+        "to_period": 83,
+        "from_zodiac": "龙",
+        "to_zodiac": "虎",
+        "interval": 10
+      },
+      {
+        "from_period": 92,
+        "to_period": 93,
+        "from_zodiac": "牛",
+        "to_zodiac": "兔",
+        "interval": 2
+      },
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      },
+      {
+        "from_period": 102,
+        "to_period": 103,
+        "from_zodiac": "猪",
+        "to_zodiac": "牛",
+        "interval": 2
+      },
+      {
+        "from_period": 107,
+        "to_period": 108,
+        "from_zodiac": "马",
+        "to_zodiac": "狗",
+        "interval": 4
+      },
+      {
+        "from_period": 108,
+        "to_period": 109,
+        "from_zodiac": "狗",
+        "to_zodiac": "兔",
+        "interval": 5
+      },
+      {
+        "from_period": 110,
+        "to_period": 111,
+        "from_zodiac": "牛",
+        "to_zodiac": "马",
+        "interval": 5
+      }
+    ]
+  },
+  "规则7_2单5双": {
+    "rule_name": "规则7_2单5双",
+    "rule_info": {
+      "value": "2单5双",
+      "odd": 2,
+      "even": 5
+    },
+    "match_count": 7,
+    "interval_distribution": {
+      "7": 1,
+      "8": 1,
+      "10": 1,
+      "0": 1,
+      "11": 2,
+      "6": 1
+    },
+    "most_common_intervals": [
+      [
+        11,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 22,
+        "to_period": 23,
+        "from_zodiac": "牛",
+        "to_zodiac": "猴",
+        "interval": 7
+      },
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 63,
+        "to_period": 64,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      },
+      {
+        "from_period": 72,
+        "to_period": 73,
+        "from_zodiac": "鸡",
+        "to_zodiac": "鸡",
+        "interval": 0
+      },
+      {
+        "from_period": 78,
+        "to_period": 79,
+        "from_zodiac": "鸡",
+        "to_zodiac": "猴",
+        "interval": 11
+      },
+      {
+        "from_period": 93,
+        "to_period": 94,
+        "from_zodiac": "兔",
+        "to_zodiac": "虎",
+        "interval": 11
+      },
+      {
+        "from_period": 97,
+        "to_period": 98,
+        "from_zodiac": "猴",
+        "to_zodiac": "虎",
+        "interval": 6
+      }
+    ]
+  },
+  "规则13_生肖重复3+": {
+    "rule_name": "规则13_生肖重复3+",
+    "rule_info": {
+      "value": "猪出现3次",
+      "zodiacs": [
+        "猪"
+      ],
+      "count": 3
+    },
+    "match_count": 6,
+    "interval_distribution": {
+      "8": 1,
+      "3": 1,
+      "11": 1,
+      "10": 2,
+      "6": 1
+    },
+    "most_common_intervals": [
+      [
+        10,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 41,
+        "to_period": 42,
+        "from_zodiac": "羊",
+        "to_zodiac": "兔",
+        "interval": 8
+      },
+      {
+        "from_period": 47,
+        "to_period": 48,
+        "from_zodiac": "龙",
+        "to_zodiac": "羊",
+        "interval": 3
+      },
+      {
+        "from_period": 68,
+        "to_period": 69,
+        "from_zodiac": "猴",
+        "to_zodiac": "羊",
+        "interval": 11
+      },
+      {
+        "from_period": 86,
+        "to_period": 87,
+        "from_zodiac": "羊",
+        "to_zodiac": "蛇",
+        "interval": 10
+      },
+      {
+        "from_period": 94,
+        "to_period": 95,
+        "from_zodiac": "虎",
+        "to_zodiac": "猴",
+        "interval": 6
+      },
+      {
+        "from_period": 109,
+        "to_period": 110,
+        "from_zodiac": "兔",
+        "to_zodiac": "牛",
+        "interval": 10
+      }
+    ]
+  },
+  "规则1_尾数4次": {
+    "rule_name": "规则1_尾数4次",
+    "rule_info": {
+      "value": "尾数5出现4次",
+      "count": 4
+    },
+    "match_count": 2,
+    "interval_distribution": {
+      "8": 1
+    },
+    "most_common_intervals": [
+      [
+        8,
+        1
+      ]
+    ],
+    "all_intervals": [
+      {
+        "from_period": 96,
+        "to_period": 97,
+        "from_zodiac": "鼠",
+        "to_zodiac": "猴",
+        "interval": 8
+      }
+    ]
+  }
+}
